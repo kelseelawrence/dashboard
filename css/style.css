@@ -9,6 +9,11 @@
 
 /* temp background color */
 body {
-    background: var(--lime-4);
+    /* background: var(--lime-4); */
+    background: linear-gradient(to right, #f1b2d2, #ff1493);
+    /* background: var(--gradient-12); */
   }
   
+  section {
+    animation: var(--animation-fade-in) forwards;
+  }
